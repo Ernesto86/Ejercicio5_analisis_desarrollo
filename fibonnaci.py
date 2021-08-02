@@ -1,3 +1,19 @@
+#Ejercicio 5: Análisis + Desarrollo
+# La serie de Fibonacci se construye utilizando la siguiente relación de recurrencia: Fn = Fn1 + Fn2, donde F1 = 1 y F2 = 1. Por ende, los primeros doce términos de esta serie son: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144
+# Ahora, consideremos los divisores de estos términos:
+# 1 = 1
+# 1 = 1
+# 2 = 1, 2
+# 3 = 1, 3
+# 5  = 1, 5
+# 8 = 1, 2, 4, 8
+# 13 = 1, 13
+# 21 = 1, 3, 7, 21
+# 34 = 1, 2, 17, 34
+# 55 = 1, 5, 11, 55
+# 89 = 1, 89
+# 144 = 1, 2, 3, 4, 6, 8, 9, 12, 16, 18, 24, 36, 48, 72, 144
+
 from math import sqrt
 def get_ListaFibonacci(n):
     lista = [0, 1]
